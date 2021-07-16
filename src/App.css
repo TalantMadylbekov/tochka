@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .footer {
     background: #2F2F2F;
 }
@@ -41,4 +44,56 @@
 }
 .low {
     margin: 130px 0  10px 85px;
+}
+.icons h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+.sections {
+    display: flex;
+    text-align: center;
+}
+.sections p {
+    line-height: 30px;
+}
+.quations {
+    display: flex;
+}
+.quations p {
+    line-height: 30px;
+}
+.first {
+    width: 50%;
+    height: 300px;
+}
+.second {
+    width: 50%;
+}
+.footerprime {
+    background: #2F2F2F;
+    color: #ffffff;
+}
+.footerprime h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+.line hr {
+    color: white;
+}
+.adres {
+    display: flex;
+}
+.contacts {
+    width: 50%;
+}
+.contacts h3 {
+    line-height: 50px;
+}
+.map {
+    width: 50%;
+    height: 300px;
 }
